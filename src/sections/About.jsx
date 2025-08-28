@@ -55,7 +55,7 @@ export default function About() {
                   className="w-32 h-32 mx-auto rounded-full object-cover mb-4"
                 />
                 <h4 className="text-lg font-bold">{member.name}</h4>
-                <p className="text-blue-600 font-medium">{member.role}</p>
+                <p className="text-orange-600 font-medium">{member.role}</p>
               </div>
             ))}
           </div>

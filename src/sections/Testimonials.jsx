@@ -48,7 +48,7 @@ export default function Testimonials() {
                   />
                   <div className="text-left">
                     <h4 className="text-lg font-bold text-gray-800">{t.name}</h4>
-                    <p className="text-sm text-blue-600">{t.role}</p>
+                    <p className="text-sm text-orange-600">{t.role}</p>
                   </div>
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed">“{t.feedback}”</p>

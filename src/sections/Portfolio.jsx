@@ -27,8 +27,8 @@ export default function Portfolio() {
   ];
 
   return (
-    <section id="portfolio" className="py-20 bg-white">
-      <div className="container mx-auto px-6 text-center">
+    <section id="portfolio" className="py-20 bg-gray-100">
+      <div className="container mx-auto px-6 text-center bg-gray-50">
         <h2 className="text-3xl font-bold text-gray-800 mb-12">Our Portfolio</h2>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">

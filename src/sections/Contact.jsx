@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+    <section id="contact" className="py-20 bg-gradient-to-r from-orange-600 to-gray-900 text-white">
       <div className="container mx-auto px-6">
         
         {/* Heading */}
@@ -21,7 +21,7 @@ export default function Contact() {
               <input
                 type="text"
                 placeholder="Enter your name"
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:outline-none"
               />
             </div>
 
@@ -31,7 +31,7 @@ export default function Contact() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:outline-none"
               />
             </div>
 
@@ -41,7 +41,7 @@ export default function Contact() {
               <textarea
                 rows="5"
                 placeholder="Write your message..."
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:outline-none"
               ></textarea>
             </div>
 
@@ -49,7 +49,7 @@ export default function Contact() {
             <div className="text-center">
               <button
                 type="submit"
-                className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition"
+                className="px-6 py-3 bg-orange-600 text-white font-semibold rounded-lg shadow-md hover:bg-orange-700 transition"
               >
                 Send Message
               </button>
