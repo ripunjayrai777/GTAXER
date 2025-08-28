@@ -8,7 +8,7 @@ export default function Navbar() {
       <nav className="container mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
         <a href="#home" className="text-2xl font-bold text-orange-600">
-          Agency
+          GTAXER
         </a>
 
         {/* Desktop Menu */}
